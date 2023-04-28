@@ -1,0 +1,62 @@
+body{
+	background: #eee;
+	font-family: sans-serif;
+}
+.logoBox{
+	display: flex;	width:100%;
+}
+.logoBox img{
+	width:80px;
+	margin: auto;
+}
+.menu{
+	padding: 20px;
+}
+.menu a{
+	text-decoration: none;
+	color:#000;
+	font-weight:bold;
+	font-size:24px;
+	margin:15px;
+}
+.menu a:hover{
+	color:orange;
+}
+#dishes{
+	width:	92%;
+	margin: 4%;
+}
+#dishes .dish{
+	border-bottom:1px solid #ddd;
+	margin-bottom:30px;
+	display: flex;
+}
+#dishes .dish .content{
+	display: inline-block;
+	width:60%;
+}
+#dishes .dish .content h2{
+	display: inline-block;
+}
+#dishes .dish .content img{
+	display: inline-block;
+	width:25px;
+}
+#dishes .dishImg{
+	display: inline-block;
+	width:70%;
+	margin:0 15%;
+}
+#dishes a{
+	display: inline-block;
+	width:30%;
+	margin:0 4%;
+}
+#homeContent{
+	width:90%;
+	margin:0 4%;
+	text-align: justify;
+}
+#homeContent p{
+	font-size: 18px;
+}
